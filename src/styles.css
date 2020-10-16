@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.data-container .data-box {
+  width: 100px;
+  height: 100px;
+  background-color: #e6e4e4;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.data-box .data-box-label {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+.data-box .data-box-value {
+  font-size: 40px;
+  font-weight: bold;
+}
